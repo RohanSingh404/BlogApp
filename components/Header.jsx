@@ -25,7 +25,7 @@ const Header = () => {
     <div className='py-5 px-5 md:py-12 lg:py-8'>
         <div className='flex justify-between items-center h-10'>
             <Link href="#"><Image src={logo} width={120} height={1} alt='Blog-App' className=' sm:w-70 cursor-pointer'/></Link>
-            <button className='flex items-center gap-2 font-medium md:py-3 md:px-6 py-1 px-3 border border-black cursor-pointer shadow-[-5px_5px_0px_#000000]'>Get Started <Image src={arrow} alt='Get-Started' width={100} height={10} className='md:w-5 w-4 ' /></button>
+            <Link href={'/admin'}><button className='flex items-center gap-2 font-medium md:py-3 md:px-6 py-1 px-3 border border-black cursor-pointer shadow-[-5px_5px_0px_#000000]'>Get Started <Image src={arrow} alt='Get-Started' width={100} height={10} className='md:w-5 w-4 ' /></button></Link>
         </div>
 
         <div className='text-center my-5'>
